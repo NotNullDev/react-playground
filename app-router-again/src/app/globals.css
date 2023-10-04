@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-base-200 min-h-screen;
+}
+
+.btn {
+  @apply no-animation;
+}

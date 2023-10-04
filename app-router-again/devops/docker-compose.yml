@@ -1,0 +1,10 @@
+name: react-app-router
+services:
+  test-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=test-db
+    ports:
+      - 5432:5432
